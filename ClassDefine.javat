@@ -1,0 +1,30 @@
+class ClassesDefine{
+	public static void main(String [] args){
+	Person Agrim = new Person("Agrim" , "male" , 22);
+	System.out.println(Agrim);
+	}
+}
+class Computer{
+	String brand = "Apple";
+	String modelyear = "Jan-2024";
+	double price = 2131;
+	
+	}
+class Person{
+	String name = "agrim";
+	String gender = "m";
+	int age = 22;
+	Person(String name, String gender, int age){
+	this.name = name;
+	this.gender = gender;
+	this.age = age;
+}
+	@Override 
+	public String toString(){
+
+	return "person{name = '"+ name + "' , age " + age + ", gender = '"+ gender + "'}" ;
+	}
+}
+
+
+
